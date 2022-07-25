@@ -1,0 +1,24 @@
+{"level":"info","message":"Email Error","timestamp":"2021-01-02T09:00:23.494Z"}
+{"level":"info","message":"Email Error","timestamp":"2021-01-02T09:01:40.998Z"}
+{"message":"Email Error nanda.hcja@gmail.com, 6f659633-ad8e-4a64-a2c8-beb871250eca, verifyEmail","level":"info","timestamp":"2021-01-02T09:02:44.896Z"}
+{"message":"Email Error nanda.hcja@gmail.com, 6024ff51-ef48-475c-8836-2781ff540d0a, verifyEmail","level":"info","timestamp":"2021-01-02T09:03:14.643Z"}
+{"message":"Email Error nanda.hcja@gmail.com, b6c1afe7-de2c-41db-9de6-a107c55a8d28, verifyEmail","level":"info","timestamp":"2021-01-02T09:04:46.992Z"}
+{"message":"Email Error nanda.hcja@gmail.com, be2d968e-7417-40d6-92cc-7dedbef54245, verifyEmail","level":"info","timestamp":"2021-01-02T09:06:48.107Z"}
+{"message":"Email Error nanda.hcja@gmail.com, 6aa93353-8b40-496a-8ddc-be1139195645, verifyEmail","level":"info","timestamp":"2021-01-02T09:07:20.251Z"}
+{"message":"Email Error nanda.hcja@gmail.com, 12296ad4-4f6a-41a4-b51f-cbe67f15ffa7, verifyEmail","level":"info","timestamp":"2021-01-02T09:10:37.364Z"}
+{"code":"ESTREAM","command":"API","level":"info","timestamp":"2021-01-02T09:10:38.031Z"}
+{"message":"Email Error nanda.hcja@gmail.com, 3102b0a4-ada1-4d3e-84ff-fc63b765207c, verifyEmail","level":"info","timestamp":"2021-01-02T09:14:19.988Z"}
+{"code":"ESTREAM","command":"API","level":"info","timestamp":"2021-01-02T09:14:20.549Z"}
+{"message":"Email Error vivekvivek9866@gmail.com, b2a21ce7-b85a-4ba0-aaea-ba2a13bd19da, verifyEmail","level":"info","timestamp":"2021-01-02T09:19:24.770Z"}
+{"code":"ESTREAM","command":"API","level":"info","timestamp":"2021-01-02T09:19:25.291Z"}
+{"message":"Email Error vivekvivek9866@gmail.com, b855c5c0-4bce-4235-88ce-2875f975352e, verifyEmail","level":"info","timestamp":"2021-01-02T09:21:40.579Z"}
+{"code":"ESTREAM","command":"API","level":"info","timestamp":"2021-01-02T09:21:41.072Z"}
+{"message":"Email Error vivekvivek9866@gmail.com, c1c37a25-c0f7-4163-9ec6-c5322632b2c4, verifyEmail","level":"info","timestamp":"2021-01-02T09:27:41.039Z"}
+{"message":"Email Error vivekvivek9866@gmail.com, cc830cea-0c95-4a9c-8c9c-ac081966fe39, verifyEmail","level":"info","timestamp":"2021-01-02T21:16:55.908Z"}
+{"code":"ESTREAM","command":"API","level":"info","timestamp":"2021-01-02T21:16:56.473Z"}
+{"message":"Email Error sendertest@yopmail.com, 23268f89-0320-4ca1-8664-03fb6bb71945, verifyEmail","level":"info","timestamp":"2021-01-02T21:22:46.330Z"}
+{"message":"Email Error sendertest@yopmail.com, 73d79307-8908-4e4b-ac5c-bd32b6191cf3, forgotPasswordCode","level":"info","timestamp":"2021-01-03T08:27:17.113Z"}
+{"message":"Email Error sendertest@yopmail.com, fdcb6dee-1c1e-4b8d-8215-a15c64af87d7, forgotPasswordCode","level":"info","timestamp":"2021-01-03T08:50:46.915Z"}
+{"message":"Email Error sendertest@yopmail.com, a68e2000-f212-4915-bc90-d71b0b75d077, forgotPasswordCode","level":"info","timestamp":"2021-01-03T08:51:38.810Z"}
+{"message":"Email Error sendertest@yopmail.com, cf7f573c-9766-4217-b538-edebeaeef123, forgotPasswordCode","level":"info","timestamp":"2021-01-03T08:55:07.538Z"}
+{"message":"Email Error sendertest@yopmail.com, a12d2cc9-b174-4aac-b48c-503c6d286796, forgotPasswordCode","level":"info","timestamp":"2021-01-03T08:55:33.426Z"}

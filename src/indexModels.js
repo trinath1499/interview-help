@@ -1,2 +1,2 @@
 require("./admin/src/adminModel");
-require("./questions/src/questionsModel");
+require("./question/src/questionsModel");
