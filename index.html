@@ -137,6 +137,10 @@
             messages.appendChild(item);
             window.scrollTo(0, document.body.scrollHeight);
         });
+
+        socket.on('show this', function (msg) {
+            console.log("show this");
+        });
     </script>
 </body>
 
