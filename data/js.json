@@ -16,14 +16,14 @@
         {
             "id":1003,
             "type": "js",
-            "question": "",
-            "answer":""
+            "question": "Difference between “ == “ and “ === “ operators.",
+            "answer":"Both are comparison operators. The difference between both the operators is that “==” is used to compare values whereas, “ === “ is used to compare both values and types."
         },
         {
             "id":1004,
             "type": "js",
-            "question": "",
-            "answer":"",
+            "question": "Difference between var and let keyword in javascript.",
+            "answer":"var has function scope and will be hoisted, let has some block scope and it will not be hoisted",
         },
         {
             "id":1000,
