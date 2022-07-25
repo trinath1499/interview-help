@@ -66,82 +66,73 @@
 </head>
 
 <body>
-    <div class="row">
-        <div class="col-sm-4">
-            <ul id="messages"></ul>
+    <div class="row mt-4">
+        <div class="col-3">
+
         </div>
-        <div class="col-sm-4">
-            <div class="words" contenteditable>
-                <p id="p"></p>
+        <div class="col-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Candidate</h5>
+                    <p class="card-text"></p>
+                    <a href="/candidate" class="btn btn-primary">Go Here</a>
+                </div>
             </div>
         </div>
-        <div class="col-sm-4">
-            <button type="button" class="btn btn-primary">Primary</button>
+        <div class="col-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Support</h5>
+                    <p class="card-text"></p>
+                    <a href="/support" class="btn btn-primary">Go Here</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+
         </div>
     </div>
-    <form id="form" action="">
-        <input id="input" autocomplete="off" /><button>Send</button>
-    </form>
-    <script>
-        var speech = true;
-        if (confirm('Are you listener?')) {
-            // Save it!
-            speech = false;
-        }
-        
-        window.SpeechRecognition = window.SpeechRecognition
-            || window.webkitSpeechRecognition;
+    <div class="mt-4 pt-4">
 
-        const recognition = new SpeechRecognition();
-        recognition.lang = 'en-IN';
-        recognition.interimResults = false;
-        const words = document.querySelector('.words');
-        words.appendChild(p);
-
-        recognition.addEventListener('result', e => {
-            const transcript = Array.from(e.results)
-                .map(result => result[0])
-                .map(result => result.transcript)
-                .join('')
-
-            document.getElementById("p").innerHTML = transcript;
-            socket.emit('chat message', transcript)
-            console.log(transcript);
-        });
-
-        if (speech == true) {
-            recognition.start();
-            recognition.addEventListener('end', recognition.start);
-        }
-    </script>
-
-
-    <script>
-        var socket = io();
-
-        var messages = document.getElementById('messages');
-        var form = document.getElementById('form');
-        var input = document.getElementById('input');
-
-        form.addEventListener('submit', function (e) {
-            e.preventDefault();
-            if (input.value) {
-                socket.emit('chat message', input.value);
-                input.value = '';
-            }
-        });
-
-        socket.on('chat message', function (msg) {
-            var item = document.createElement('li');
-            item.textContent = msg;
-            messages.appendChild(item);
-            window.scrollTo(0, document.body.scrollHeight);
-        });
-
-        socket.on('show this', function (msg) {
-            console.log("show this");
-        });
-    </script>
+    </div>
+    <div class="row m-4 ">
+        <div class="col-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Java Interview Questions</h5>
+                    <p class="card-text"></p>
+                    <a href="/java-interview-questions" class="btn btn-primary">Go Here</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">JS Interview Questions</h5>
+                    <p class="card-text"></p>
+                    <a href="/js-interview-questions" class="btn btn-primary">Go Here</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Angular Interview Questions</h5>
+                    <p class="card-text"></p>
+                    <a href="ng-interview-questions" class="btn btn-primary">Go Here</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">React Interview Questions</h5>
+                    <p class="card-text"></p>
+                    <a href="react-interview-questions" class="btn btn-primary">Go Here</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

@@ -27,6 +27,22 @@ app.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html');
 });
 
+app.get('/support', (req, res) => {
+  res.sendFile(__dirname + '/html/support.html');
+});
+
+app.get('/candidate', (req, res) => {
+  res.sendFile(__dirname + '/html/candidate.html');
+});
+
+app.get('/js-interview-questions', (req, res) => {
+  res.sendFile(__dirname + '/data/js.json');
+});
+
+app.get('/java-interview-Questions', (req, res) => {
+  res.sendFile(__dirname + '/data/java.json');
+});
+
 app.get('/test', (req, res) => {
   res.sendFile(__dirname + '/test.html');
 });
@@ -53,6 +69,6 @@ io.on('connection', (socket) => {
   });
 });
 
-http.listen(process.env.PORT, () => {
+http.listen(3000, () => {
   console.log(`Socket.IO server running at http://localhost:${port}/`);
 });

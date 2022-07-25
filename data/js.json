@@ -23,43 +23,43 @@
             "id":1004,
             "type": "js",
             "question": "Difference between var and let keyword in javascript.",
-            "answer":"var has function scope and will be hoisted, let has some block scope and it will not be hoisted",
+            "answer":"var has function scope and will be hoisted, let has some block scope and it will not be hoisted"
         },
         {
             "id":1000,
             "type": "js",
             "question": "",
-            "answer":"",
+            "answer":""
         },
         {
             "id":1000,
             "type": "js",
             "question": "",
-            "answer":"",
+            "answer":""
         },
         {
             "id":1000,
             "type": "js",
             "question": "",
-            "answer":"",
+            "answer":""
         },
         {
             "id":1000,
             "type": "js",
             "question": "",
-            "answer":"",
+            "answer":""
         },
         {
             "id":1000,
             "type": "js",
             "question": "",
-            "answer":"",
+            "answer":""
         },
         {
             "id":1000,
             "type": "js",
             "question": "",
-            "answer":"",
-        },
+            "answer":""
+        }
     ]
 }
