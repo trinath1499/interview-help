@@ -27,6 +27,14 @@ app.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html');
 });
 
+app.get('/start-interview/:sessionId', (req, res) => {
+  res.sendFile(__dirname + '/html/startInterview.html');
+});
+
+app.get('/interview-inprogress/:sessionId', (req, res) => {
+  res.sendFile(__dirname + '/html/videoRecorder.html');
+});
+
 app.get('/support', (req, res) => {
   res.sendFile(__dirname + '/html/support.html');
 });
@@ -36,6 +44,10 @@ app.get('/candidate', (req, res) => {
 });
 
 app.get('/js-interview-questions', (req, res) => {
+  res.sendFile(__dirname + '/html/js/jsQuestions.html');
+});
+
+app.get('/js-interview-questions-json', (req, res) => {
   res.sendFile(__dirname + '/data/js.json');
 });
 
@@ -65,7 +77,7 @@ io.on('connection', (socket) => {
 
   socket.on('show this', msg => {
     console.log(msg);
-    io.emit('chat message', msg);
+    io.emit('show this', msg);
   });
 });
 
