@@ -26,40 +26,43 @@
             "answer":"var has function scope and will be hoisted, let has some block scope and it will not be hoisted"
         },
         {
-            "id":1000,
+            "id":1005,
             "type": "js",
-            "question": "",
-            "answer":""
+            "question": "What is Spread Operator",
+            "answer":"Spread operator allows iterables( arrays / objects / strings ) to be expanded into single arguments/elements"
         },
         {
-            "id":1000,
+            "id":1006,
             "type": "js",
-            "question": "",
-            "answer":""
+            "question": "What are ES6 features ",
+            "answer":"let and const Keywords,Arrow Functions,Multi-line Strings,Default Parameters,Template Literals,Destructuring Assignment,Enhanced Object Literals,Promises,Classes,Modules"
         },
         {
-            "id":1000,
+            "id":1007,
             "type": "js",
-            "question": "",
-            "answer":""
+            "question": "What are the features of JavaScript",
+            "answer":"Lightweight, interpreted programming language,Cross-platform compatible,Open-source,Object-oriented,Integration with other backend and frontend technologies,
+                        Used especially for the development of network-based applications
+"
         },
         {
-            "id":1000,
+            "id":1008,
             "type": "js",
-            "question": "",
-            "answer":""
+            "question": "What is Callback in JavaScript",
+            "answer":"In JavaScript, functions are objects and therefore, functions can take other functions as arguments and can also be returned by other functions."
         },
         {
-            "id":1000,
+            "id":1009,
             "type": "js",
-            "question": "",
-            "answer":""
+            "question": "What are the arrow functions in JavaScript",
+            "answer":"Arrow functions are a short and concise way of writing functions in JavaScript"
         },
         {
-            "id":1000,
+            "id":1010,
             "type": "js",
-            "question": "",
-            "answer":""
+            "question": "What are template literals in es6",
+            "answer":"Template literals help make it simple to do string interpolation, or to include variables in a string.It represents in backticks "
         }
+        
     ]
 }
